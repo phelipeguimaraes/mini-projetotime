@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #515154;
+}
+
+header {
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+section {
+    background-color: white;
+    width: 400px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.308);
+}
+
+section div {
+    text-align: center;
+}
+
+section input[type = 'text'] {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.195);
+    padding: 5px;
+    text-align: center;
+}
+
+section input[type = 'button'] {
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    color: rgba(0, 0, 0, 0.671);
+    border-radius: 5px;
+}
+
+section input[type = 'button']:hover {
+    background-color: gray;
+    color: white;
+} 
+
+section img {
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+section .classificacao {
+    padding: 15px;
+}
+
+section #camp {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
